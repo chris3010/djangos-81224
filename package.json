@@ -1,0 +1,26 @@
+{
+  "name": "email-processor-node",
+  "version": "0.0.0",
+  "description": "SendGrid Email Processor Node App",
+  "dependencies": {
+    "express": "4.13.4",
+    "body-parser": "1.15.0",
+    "multer": "1.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-atom-downloader": "^0.2.1",
+    "gulp-nodemon": "^2.0.6",
+    "gulp-livereload": "^3.8.1",
+    "gulp-mocha": "^2.2.0",
+    "supertest": "^1.1.0"
+  },
+  "engines": {
+    "node": "5.5.0"
+  },
+  "scripts": {
+    "start": "node app",
+    "test": "gulp test"
+  },
+  "private": true
+}
